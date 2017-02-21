@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Divide and Conquer Kernel Ridge Regression | COLT 2013 | JMLR W&amp;CP</title>
+
+		<!-- Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../css/jmlr.css">
+
+		<!-- MathJax -->
+		<script type="text/x-mathjax-config">
+  			MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+
+		<!-- Metadata -->
+		<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Divide and Conquer Kernel Ridge Regression">
+<meta name="citation_author" content="Zhang, Yuchen">
+<meta name="citation_author" content="Duchi, John">
+<meta name="citation_author" content="Wainwright, Martin">
+
+<meta name="citation_publication_date" content="2013">
+<meta name="citation_conference_title" content="Conference on Learning Theory">
+<meta name="citation_firstpage" content="592">
+<meta name="citation_lastpage" content="617">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v30/Zhang13.pdf">
+
+
+    </head>
+    <body>
+
+	<div id="fixed">
+<a align="right" href="http://www.jmlr.org/" target="_top"><img class="jmlr" src="../img/jmlr.jpg" align="right" border="0"></a> 
+<p><br><br>
+</p><p align="right"> <a href="http://www.jmlr.org/"> Home Page </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/papers"> Papers
+ </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/author-info.html"> Submissions </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/news.html"> 
+News </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/scope.html"> 
+Scope </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/editorial-board.html"> Editorial Board </a>
+ 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/announcements.html"> Announcements </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/proceedings"> 
+Proceedings </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/mloss">Open 
+Source Software</a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/search-jmlr.html"> Search </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/manudb"> Login </a></p>
+
+<br><br>
+<p align="right"> <a href="http://jmlr.csail.mit.edu/jmlr.xml"> 
+<img src="../img/RSS.gif" class="rss" alt="RSS Feed">
+</a>
+
+</p>
+	</div>
+
+	<div id="content">
+		<h1>Divide and Conquer Kernel Ridge Regression</h1>
+
+<div id="authors">Yuchen Zhang, John Duchi, Martin Wainwright</div>;
+<div id="info">JMLR W&amp;CP 30 : 592–617, 2013</div>
+
+
+
+<h2>Abstract</h2>
+<div id="abstract">
+	We study a decomposition-based scalable approach to performing kernel ridge regression. The method is simply described: it randomly partitions a dataset of size <span class="math">\(N\)</span> into <span class="math">\(m\)</span> subsets of equal size, computes an independent kernel ridge regression estimator for each subset, then averages the local solutions into a global predictor. This partitioning leads to a substantial reduction in computation time versus the standard approach of performing kernel ridge regression on all <span class="math">\(N\)</span> samples. Our main theorem establishes that despite the computational speed-up, statistical optimality is retained: that so long as <span class="math">\(m\)</span> is not too large, the partition-based estimate achieves optimal rates of convergence for the full sample size <span class="math">\(N\)</span>. As concrete examples, our theory guarantees that <span class="math">\(m\)</span> may grow polynomially in <span class="math">\(N\)</span> for Sobolev spaces, and nearly linearly for finite-rank kernels and Gaussian kernels. We conclude with simulations complementing our theoretical results and exhibiting the computational and statistical benefits of our approach.
+</div>
+
+<h2>Related Material</h2>
+<div id="extras">
+	<ul>
+		<li><a href="Zhang13.pdf">Download PDF</a></li>
+		
+	</ul>
+</div>
+
+	</div>
+
+    </body>
+</html>

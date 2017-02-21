@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Representation, Approximation and Learning of Submodular Functions Using Low-rank Decision Trees | COLT 2013 | JMLR W&amp;CP</title>
+
+		<!-- Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../css/jmlr.css">
+
+		<!-- MathJax -->
+		<script type="text/x-mathjax-config">
+  			MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+
+		<!-- Metadata -->
+		<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Representation, Approximation and Learning of Submodular Functions Using Low-rank Decision Trees">
+<meta name="citation_author" content="Feldman, Vitaly">
+<meta name="citation_author" content="Kothari, Pravesh">
+<meta name="citation_author" content="Vondrák, Jan">
+
+<meta name="citation_publication_date" content="2013">
+<meta name="citation_conference_title" content="Conference on Learning Theory">
+<meta name="citation_firstpage" content="711">
+<meta name="citation_lastpage" content="740">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v30/Feldman13.pdf">
+
+
+    </head>
+    <body>
+
+	<div id="fixed">
+<a align="right" href="http://www.jmlr.org/" target="_top"><img class="jmlr" src="../img/jmlr.jpg" align="right" border="0"></a> 
+<p><br><br>
+</p><p align="right"> <a href="http://www.jmlr.org/"> Home Page </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/papers"> Papers
+ </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/author-info.html"> Submissions </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/news.html"> 
+News </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/scope.html"> 
+Scope </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/editorial-board.html"> Editorial Board </a>
+ 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/announcements.html"> Announcements </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/proceedings"> 
+Proceedings </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/mloss">Open 
+Source Software</a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/search-jmlr.html"> Search </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/manudb"> Login </a></p>
+
+<br><br>
+<p align="right"> <a href="http://jmlr.csail.mit.edu/jmlr.xml"> 
+<img src="../img/RSS.gif" class="rss" alt="RSS Feed">
+</a>
+
+</p>
+	</div>
+
+	<div id="content">
+		<h1>Representation, Approximation and Learning of Submodular Functions Using Low-rank Decision Trees</h1>
+
+<div id="authors">Vitaly Feldman, Pravesh Kothari, Jan Vondrák</div>;
+<div id="info">JMLR W&amp;CP 30 : 711–740, 2013</div>
+
+
+
+<h2>Abstract</h2>
+<div id="abstract">
+	<p>We study the complexity of approximate representation and learning of submodular functions over the uniform distribution on the Boolean hypercube <span class="math">\(\{0,1\}^n\)</span>. Our main result is the following structural theorem: any submodular function is <span class="math">\(\epsilon\)</span>-close in <span class="math">\(\ell_2\)</span> to a real-valued decision tree (DT) of depth <span class="math">\(O(1/\epsilon^2)\)</span>. This immediately implies that any submodular function is <span class="math">\(\epsilon\)</span>-close to a function of at most <span class="math">\(2^{O(1/\epsilon^2)}\)</span> variables and has a spectral <span class="math">\(\ell_1\)</span> norm of <span class="math">\(2^{O(1/\epsilon^2)}\)</span>. It also implies the closest previous result that states that submodular functions can be approximated by polynomials of degree <span class="math">\(O(1/\epsilon^2)\)</span> (Cheraghchi et al., 2012). Our result is proved by constructing an approximation of a submodular function by a DT of rank <span class="math">\(4/\epsilon^2\)</span> and a proof that any rank-<span class="math">\(r\)</span> DT can be <span class="math">\(\epsilon\)</span>-approximated by a DT of depth <span class="math">\(\frac{5}{2}(r+\log(1/\epsilon))\)</span>.</p>
+<p>We show that these structural results can be exploited to give an attribute-efficient PAC learning algorithm for submodular functions running in time <span class="math">\(\tilde{O}(n^2) \cdot 2^{O(1/\epsilon^{4})}\)</span>. The best previous algorithm for the problem requires <span class="math">\(n^{O(1/\epsilon^{2})}\)</span> time and examples (Cheraghchi et al., 2012) but works also in the agnostic setting. In addition, we give improved learning algorithms for a number of related settings.</p>
+<p>We also prove that our PAC and agnostic learning algorithms are essentially optimal via two lower bounds: (1) an information-theoretic lower bound of <span class="math">\(2^{\Omega(1/\epsilon^{2/3})}\)</span> on the complexity of learning monotone submodular functions in any reasonable model (including learning with value queries); (2) computational lower bound of <span class="math">\(n^{\Omega(1/\epsilon^{2/3})}\)</span> based on a reduction to learning of sparse parities with noise, widely-believed to be intractable. These are the first lower bounds for learning of submodular functions over the uniform distribution.</p>
+</div>
+
+<h2>Related Material</h2>
+<div id="extras">
+	<ul>
+		<li><a href="Feldman13.pdf">Download PDF</a></li>
+		
+	</ul>
+</div>
+
+	</div>
+
+    </body>
+</html>

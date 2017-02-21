@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Subspace Embeddings and $\ell_p$-Regression Using Exponential Random Variables | COLT 2013 | JMLR W&amp;CP</title>
+
+		<!-- Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../css/jmlr.css">
+
+		<!-- MathJax -->
+		<script type="text/x-mathjax-config">
+  			MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+
+		<!-- Metadata -->
+		<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Subspace Embeddings and $\ell_p$-Regression Using Exponential Random Variables">
+<meta name="citation_author" content="Woodruff, David">
+<meta name="citation_author" content="Zhang, Qin">
+
+<meta name="citation_publication_date" content="2013">
+<meta name="citation_conference_title" content="Conference on Learning Theory">
+<meta name="citation_firstpage" content="546">
+<meta name="citation_lastpage" content="567">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v30/Woodruff13.pdf">
+
+
+    </head>
+    <body>
+
+	<div id="fixed">
+<a align="right" href="http://www.jmlr.org/" target="_top"><img class="jmlr" src="../img/jmlr.jpg" align="right" border="0"></a> 
+<p><br><br>
+</p><p align="right"> <a href="http://www.jmlr.org/"> Home Page </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/papers"> Papers
+ </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/author-info.html"> Submissions </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/news.html"> 
+News </a> 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/scope.html"> 
+Scope </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/editorial-board.html"> Editorial Board </a>
+ 
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/announcements.html"> Announcements </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/proceedings"> 
+Proceedings </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/mloss">Open 
+Source Software</a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/search-jmlr.html"> Search </a>
+
+</p><p align="right"> <a href="http://jmlr.csail.mit.edu/manudb"> Login </a></p>
+
+<br><br>
+<p align="right"> <a href="http://jmlr.csail.mit.edu/jmlr.xml"> 
+<img src="../img/RSS.gif" class="rss" alt="RSS Feed">
+</a>
+
+</p>
+	</div>
+
+	<div id="content">
+		<h1>Subspace Embeddings and <span class="math">\(\ell_p\)</span>-Regression Using Exponential Random Variables</h1>
+
+<div id="authors">David Woodruff, Qin Zhang</div>;
+<div id="info">JMLR W&amp;CP 30 : 546–567, 2013</div>
+
+
+
+<h2>Abstract</h2>
+<div id="abstract">
+	<p>Oblivious low-distortion subspace embeddings are a crucial building block for numerical linear algebra problems. We show for any real <span class="math">\(p, 1 \leq p &lt; \infty\)</span>, given a matrix <span class="math">\(M \in \mathbb{R}^{n \times d}\)</span> with <span class="math">\(n \gg d\)</span>, with constant probability we can choose a matrix <span class="math">\(\Pi\)</span> with <span class="math">\(\max(1, n^{1-2/p}) \text{poly}(d)\)</span> rows and <span class="math">\(n\)</span> columns so that simultaneously for all <span class="math">\(x \in \mathbb{R}^d\)</span>, <span class="math">\(\|Mx\|_p \leq \|\Pi Mx\|_{\infty} \leq \text{poly}(d) \|Mx\|_p.\)</span> Importantly, <span class="math">\(\Pi M\)</span> can be computed in the optimal <span class="math">\(O(\text{nnz}(M))\)</span> time, where <span class="math">\(\text{nnz}(M)\)</span> is the number of non-zero entries of <span class="math">\(M\)</span>. This generalizes all previous oblivious subspace embeddings which required <span class="math">\(p \in [1,2]\)</span> due to their use of <span class="math">\(p\)</span>-stable random variables. Using our new matrices <span class="math">\(\Pi\)</span>, we also improve the best known distortion of oblivious subspace embeddings of <span class="math">\(\ell_1\)</span> into <span class="math">\(\ell_1\)</span> with <span class="math">\(\tilde{O}(d)\)</span> target dimension in <span class="math">\(O(\text{nnz}(M))\)</span> time from <span class="math">\(\tilde{O}(d^3)\)</span> to <span class="math">\(\tilde{O}(d^2)\)</span>, which can further be improved to <span class="math">\(\tilde{O}(d^{3/2}) \log^{1/2} n\)</span> if <span class="math">\(d = \Omega(\log n)\)</span>, answering a question of Meng and Mahoney (STOC, 2013).</p>
+<p>We apply our results to <span class="math">\(\ell_p\)</span>-regression, obtaining a <span class="math">\((1+\epsilon)\)</span>-approximation in <span class="math">\(O(\text{nnz}(M)\log n) + \text{poly}(d/\epsilon)\)</span> time, improving the best known <span class="math">\(\text{poly}(d/\epsilon)\)</span> factors for every <span class="math">\(p \in [1, \infty) \setminus \{2\}\)</span>. If one is just interested in a <span class="math">\(\text{poly}(d)\)</span> rather than a <span class="math">\((1+\epsilon)\)</span>-approximation to <span class="math">\(\ell_p\)</span>-regression, a corollary of our results is that for all <span class="math">\(p \in [1, \infty)\)</span> we can solve the <span class="math">\(\ell_p\)</span>-regression problem without using general convex programming, that is, since our subspace embeds into <span class="math">\(\ell_{\infty}\)</span> it suffices to solve a linear programming problem. Finally, we give the first protocols for the distributed <span class="math">\(\ell_p\)</span>-regression problem for every <span class="math">\(p \geq 1\)</span> which are nearly optimal in communication and computation.</p>
+</div>
+
+<h2>Related Material</h2>
+<div id="extras">
+	<ul>
+		<li><a href="Woodruff13.pdf">Download PDF</a></li>
+		
+	</ul>
+</div>
+
+	</div>
+
+    </body>
+</html>
