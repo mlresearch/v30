@@ -1,0 +1,50 @@
+# Site settings
+# Auto generated from v30.bib
+---
+booktitle: Proceedings of the 26th Annual Conference on Learning Theory
+volume: 30
+year: '2013'
+shortname: COLT
+start: 2013-06-12
+end: 2013-06-14
+published: 2013-06-13
+sections:
+- name: preface
+  title: Preface
+- name: default
+  title: Regular Papers
+- name: open-problem
+  title: Open Problems
+layout: proceedings
+id: COLT-2013
+month: 0
+abstract: ''
+editor:
+- given: Shai
+  family: Shalev-Shwartz
+- given: Ingo
+  family: Steinwart
+title: Proceedings of the 26th Annual Conference on Learning Theory
+email: ''
+description: Proceedings of the 26th Annual Conference on Learning Theory, Princeton,
+  NJ, USA
+url: http://proceedings.mlr.press
+baseurl: "/v30"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v30
+conference:
+  name: Conference on Learning Theory
+  url: 
+  location: Princeton, NJ, USA
+  dates:
+  - 2013-06-12
+  - 2013-06-13
+  - 2013-06-14
+analytics:
+  google:
+    tracking_id: UA-92432422-1
