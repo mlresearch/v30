@@ -11,6 +11,7 @@ abstract: The kernel density estimator (KDE) based on a radial positive-semidefi
   the same rate on bandwidth required for the traditional KDE. We also present a novel
   proof of the consistency of the traditional KDE.
 layout: inproceedings
+series: Proceedings of Machine Learning Research
 id: Vandermeulen13
 month: 0
 firstpage: 568
