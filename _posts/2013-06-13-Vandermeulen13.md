@@ -1,5 +1,5 @@
 ---
-pdf: http://proceedings.mlr.press/v30/Vandermeulen13/Vandermeulen13.pdf
+pdf: http://proceedings.mlr.press/v30/Vandermeulen13.pdf
 title: Consistency of Robust Kernel Density Estimators
 abstract: The kernel density estimator (KDE) based on a radial positive-semidefinite
   kernel may be viewed as a sample mean in a reproducing kernel Hilbert space. This
