@@ -18,12 +18,13 @@ series: Proceedings of Machine Learning Research
 id: COLT-2013
 month: 0
 abstract: ''
+tex_title: 
+title: Proceedings of Machine Learning Research
 editor:
 - given: Shai
   family: Shalev-Shwartz
 - given: Ingo
   family: Steinwart
-title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the 26th Annual Conference on Learning Theory
     Held in Princeton, NJ, USA on 12-14 June 2013

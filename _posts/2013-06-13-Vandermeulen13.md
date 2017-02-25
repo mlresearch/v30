@@ -14,6 +14,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: Vandermeulen13
 month: 0
+tex_title: Consistency of Robust Kernel Density Estimators
 firstpage: 568
 lastpage: 591
 page: 568-591
