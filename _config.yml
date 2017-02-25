@@ -23,10 +23,20 @@ editor:
   family: Shalev-Shwartz
 - given: Ingo
   family: Steinwart
-title: Proceedings of the 26th Annual Conference on Learning Theory
-email: ''
-description: Proceedings of the 26th Annual Conference on Learning Theory, Princeton,
-  NJ, USA
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 26th Annual Conference on Learning Theory
+    Held in Princeton, NJ, USA on 12-14 June 2013
+
+  Published as Volume 30 by the Proceedings of Machine Learning Research on 13 June 2013.
+
+  Volume Edited by:
+    Shai Shalev-Shwartz
+    Ingo Steinwart
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
 url: http://proceedings.mlr.press
 baseurl: "/v30"
 twitter_username: mlresearch
@@ -36,6 +46,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v30
+email: ''
 conference:
   name: Conference on Learning Theory
   url: 
