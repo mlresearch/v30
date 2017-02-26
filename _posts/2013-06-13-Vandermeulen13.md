@@ -18,7 +18,8 @@ tex_title: Consistency of Robust Kernel Density Estimators
 firstpage: 568
 lastpage: 591
 page: 568-591
-sections: 
+order: 568
+cycles: false
 author:
 - given: Robert
   family: Vandermeulen
