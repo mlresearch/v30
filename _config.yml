@@ -17,15 +17,13 @@ layout: proceedings
 series: Proceedings of Machine Learning Research
 id: COLT-2013
 month: 0
-abstract: ''
-tex_title: 
-title: Proceedings of Machine Learning Research
 cycles: false
 editor:
 - given: Shai
   family: Shalev-Shwartz
 - given: Ingo
   family: Steinwart
+title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the 26th Annual Conference on Learning Theory
     Held in Princeton, NJ, USA on 12-14 June 2013
@@ -42,7 +40,7 @@ description: |
 date_str: 12--14 Jun
 url: http://proceedings.mlr.press
 baseurl: "/v30"
-twitter_username: mlresearch
+twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
@@ -54,6 +52,7 @@ display:
     bibtex: true
     endnote: true
     apa: true
+    ris: true
   comments: false
 email: ''
 conference:
@@ -69,3 +68,4 @@ analytics:
     tracking_id: UA-92432422-1
 # Site settings
 # Auto generated from v30.bib
+---
