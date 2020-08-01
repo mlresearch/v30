@@ -40,6 +40,8 @@ description: |
     Mark Reid
 date_str: 12--14 Jun
 url: http://proceedings.mlr.press
+author:
+  name: PMLR
 baseurl: "/v30"
 twitter_username: MLResearchPress
 github_username: mlresearch
